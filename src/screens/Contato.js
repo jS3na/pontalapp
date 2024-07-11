@@ -13,12 +13,12 @@ export default function Contatos() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.sectionTitle}>Fale Conosco</Text>
+      <Text style={styles.title}>Fale Conosco</Text>
       <Text style={styles.subtitle}>
         <Feather name="phone" size={24} color="#004C97" /> (86) 98858-5569
       </Text>
 
-      <Text style={styles.sectionTitle}>Nossas redes</Text>
+      <Text style={styles.title}>Nossas redes</Text>
       <View style={styles.buttonContainer}>
         <Pressable style={styles.button} onPress={openWhatsApp}>
           <Ionicons name="logo-whatsapp" size={24} color="#25D366" />
@@ -30,12 +30,12 @@ export default function Contatos() {
         </Pressable>
       </View>
 
-      <Text style={styles.sectionTitle}>Atendimento</Text>
+      <Text style={styles.title}>Atendimento</Text>
       <Text style={styles.subtitle}>
         <AntDesign name="clockcircleo" size={24} color="#004C97" /> Segunda à Sexta - 8h às 12h | 14h às 18h
       </Text>
 
-      <Text style={styles.sectionTitle}>Localização</Text>
+      <Text style={styles.title}>Localização</Text>
       <Text style={styles.subtitle}>
         <Feather name="map" size={24} color="#004C97" /> Rua Particular Mata dos Algodões, 5060
       </Text>
@@ -52,12 +52,12 @@ const styles = StyleSheet.create({
     paddingTop: 40,
     paddingHorizontal: 20,
   },
-  sectionTitle: {
+  title: {
     fontSize: 24,
     color: '#004C97',
     fontWeight: 'bold',
     marginTop: 20,
-    marginBottom: 10,
+    marginBottom: 20,
     alignSelf: 'flex-start',
   },
   subtitle: {

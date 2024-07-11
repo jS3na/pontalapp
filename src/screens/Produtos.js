@@ -106,7 +106,7 @@ const styles = StyleSheet.create({
         backgroundColor: '#007bff',
         borderRadius: 5,
     },
-    filterToggleText: {
+    filterToggleText: { 
         color: '#fff',
         fontSize: 16,
     },

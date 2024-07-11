@@ -10,7 +10,7 @@ const Stack = createStackNavigator();
 export default function App() {
   return (
     <GestureHandlerRootView style={styles.container}>
-      <StatusBar animated={true} backgroundColor="black" />
+      <StatusBar animated={true} backgroundColor="#012e82" />
 
       <View style={styles.header}>
         <Image

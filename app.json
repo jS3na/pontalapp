@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "pontalapp",
+    "name": "Pontal",
     "slug": "pontalapp",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -28,6 +28,9 @@
       "eas": {
         "projectId": "775cec74-159b-445f-a775-ddd644d757f8"
       }
-    }
+    },
+    "plugins": [
+      "expo-font"
+    ]
   }
 }

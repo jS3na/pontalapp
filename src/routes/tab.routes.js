@@ -56,7 +56,7 @@ export default function TabRoutes() {
                 component={Blog}
                 options={{
                     tabBarIcon: ({ focused, color, size }) => (
-                        <MaterialIcons name="contact-page" size={size} color={focused ? color : '#ccc'} />
+                        <MaterialIcons name="article" size={size} color={focused ? color : '#ccc'} />
                     ),
                     tabBarLabel: 'Blog',
                 }}

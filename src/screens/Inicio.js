@@ -169,7 +169,8 @@ const styles = StyleSheet.create({
   },
   image: {
     width: '100%',
-    height: '100%',
+    height: '70%',
+    borderRadius: 12,
   },
   paginationStyle: {
     bottom: 10,
@@ -203,6 +204,7 @@ const styles = StyleSheet.create({
   sectionTitle: {
     fontSize: 24,
     fontWeight: 'bold',
+    color: '#004C97',
   },
   verTodosButton: {
     alignSelf: 'flex-end',
@@ -256,5 +258,6 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: 'bold',
     textAlign: 'center',
+    color: '#004C97',
   },
 });

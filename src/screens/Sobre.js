@@ -114,6 +114,7 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
     //backgroundColor: 'green',
     alignItems: 'center',
+    paddingVertical: 20,
   },
   title: {
     fontSize: 28,
